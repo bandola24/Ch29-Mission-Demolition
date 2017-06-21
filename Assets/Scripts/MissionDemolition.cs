@@ -54,7 +54,7 @@ public class MissionDemolition : MonoBehaviour {
 
 	void ShowGT() {
 		gtLevel.text = "Level: " + (level + 1) + " of " + levelMax;
-		gtLevel.text = "Shots Taken: " + shotsTaken;
+		gtScore.text = "Shots Taken: " + shotsTaken;
 	}
 
 	// Update is called once per frame
